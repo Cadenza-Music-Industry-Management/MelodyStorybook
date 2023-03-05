@@ -1,4 +1,4 @@
-import { NavigationBar } from '../Melody/src/components/Sections/NavigationBar';
+import { NavigationBar } from '../components/Melody/src/components/Sections/NavigationBar';
 
 export default {
   title: 'Section/Melody Nav Bar',

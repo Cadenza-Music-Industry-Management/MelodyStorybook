@@ -1,5 +1,5 @@
 import React from 'react';
-import {DatePicker} from '../Melody/src/components/Inputs/DatePicker';
+import {DatePicker} from '../components/Melody/src/components/Inputs/DatePicker';
 
 export default {
   title: 'Inputs/Melody Date Picker',

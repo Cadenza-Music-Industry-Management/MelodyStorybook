@@ -1,5 +1,5 @@
 import React from 'react';
-import {Alert} from '../Melody/src/components/Layouts/Alert';
+import {Alert} from '../components/Melody/src/components/Layouts/Alert';
 
 export default {
   title: 'Layout/Melody Alert',

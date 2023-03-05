@@ -1,5 +1,5 @@
 import React from 'react';
-import {Label} from "../Melody/src/components/Layouts/Label";
+import {Label} from "../components/Melody/src/components/Layouts/Label";
 
 export default {
   title: 'Layout/Melody Label',

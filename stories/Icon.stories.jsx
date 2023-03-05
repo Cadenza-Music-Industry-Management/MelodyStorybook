@@ -1,5 +1,5 @@
 import React from 'react';
-import {Icon} from '../Melody/src/components/Layouts/Icon';
+import {Icon} from '../components/Melody/src/components/Layouts/Icon';
 
 export default {
   title: 'Layout/Melody Icon',

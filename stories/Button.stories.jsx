@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from '../Melody/src/components/Inputs/Button';
+import {Button} from '../components/Melody/src/components/Inputs/Button';
 
 export default {
   title: 'Inputs/Melody Button',

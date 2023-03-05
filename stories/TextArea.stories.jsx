@@ -1,5 +1,5 @@
 import React from 'react';
-import {TextArea} from "../Melody/src/components/Inputs/TextArea";
+import {TextArea} from "../components/Melody/src/components/Inputs/TextArea";
 
 export default {
   title: 'Inputs/Melody Text Area',

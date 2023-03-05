@@ -1,5 +1,5 @@
 import React from 'react';
-import {TextPlaceholder} from '../Melody/src/components/Layouts/TextPlaceholder';
+import {TextPlaceholder} from '../components/Melody/src/components/Layouts/TextPlaceholder';
 
 export default {
   title: 'Layout/Melody Text Placeholder',

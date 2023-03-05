@@ -1,5 +1,5 @@
 import React from 'react';
-import {Checkbox} from '../Melody/src/components/Inputs/Checkbox';
+import {Checkbox} from '../components/Melody/src/components/Inputs/Checkbox';
 
 export default {
   title: 'Inputs/Melody Checkbox',

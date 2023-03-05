@@ -1,5 +1,5 @@
 import React from 'react';
-import {Rating} from '../Melody/src/components/Layouts/Rating';
+import {Rating} from '../components/Melody/src/components/Layouts/Rating';
 
 export default {
   title: 'Layout/Melody Rating',

@@ -1,5 +1,5 @@
 import React from 'react';
-import {StackedAvatars} from '../Melody/src/components/Layouts/StackedAvatars';
+import {StackedAvatars} from '../components/Melody/src/components/Layouts/StackedAvatars';
 
 export default {
   title: 'Layout/Melody Stacked Avatars',

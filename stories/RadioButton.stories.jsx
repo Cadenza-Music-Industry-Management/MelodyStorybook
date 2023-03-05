@@ -1,5 +1,5 @@
 import React from 'react';
-import {RadioButton} from '../Melody/src/components/Inputs/RadioButton';
+import {RadioButton} from '../components/Melody/src/components/Inputs/RadioButton';
 
 export default {
   title: 'Inputs/Melody Radio Button',

@@ -1,5 +1,5 @@
 import React from 'react';
-import {RadioGroup} from '../Melody/src/components/Inputs/RadioGroup';
+import {RadioGroup} from '../components/Melody/src/components/Inputs/RadioGroup';
 
 export default {
   title: 'Inputs/Melody Radio Group',

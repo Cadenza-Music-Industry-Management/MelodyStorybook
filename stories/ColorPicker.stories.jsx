@@ -1,5 +1,5 @@
 import React from 'react';
-import {ColorPicker} from '../Melody/src/components/Inputs/ColorPicker';
+import {ColorPicker} from '../components/Melody/src/components/Inputs/ColorPicker';
 
 export default {
   title: 'Inputs/Melody Color Picker',

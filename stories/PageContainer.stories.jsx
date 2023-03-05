@@ -1,6 +1,6 @@
 import React from 'react';
-import {PageContainer} from '../Melody/src/components/Sections/PageContainer';
-import {Button} from "../Melody/src/components/Inputs/Button";
+import {PageContainer} from '../components/Melody/src/components/Sections/PageContainer';
+import {Button} from "../components/Melody/src/components/Inputs/Button";
 
 export default {
   title: 'Section/Melody Page Container',

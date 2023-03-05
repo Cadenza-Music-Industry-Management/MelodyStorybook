@@ -1,5 +1,5 @@
 import React from 'react';
-import {Accordion} from '../Melody/src/components/Layouts/Accordion';
+import {Accordion} from '../components/Melody/src/components/Layouts/Accordion';
 
 export default {
   title: 'Layout/Melody Accordion',

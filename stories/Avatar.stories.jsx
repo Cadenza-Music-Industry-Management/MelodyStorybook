@@ -1,5 +1,5 @@
 import React from 'react';
-import {Avatar} from '../Melody/src/components/Layouts/Avatar';
+import {Avatar} from '../components/Melody/src/components/Layouts/Avatar';
 
 export default {
   title: 'Layout/Melody Avatar',

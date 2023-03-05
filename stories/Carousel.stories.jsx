@@ -1,5 +1,5 @@
 import React from 'react';
-import {Carousel} from '../Melody/src/components/Layouts/Carousel';
+import {Carousel} from '../components/Melody/src/components/Layouts/Carousel';
 
 export default {
   title: 'Layout/Melody Carousel',

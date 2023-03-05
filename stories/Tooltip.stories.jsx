@@ -1,6 +1,6 @@
 import React from 'react';
-import {Tooltip} from "../Melody/src/components/Layouts/Tooltip";
-import {Button} from "../Melody/src/components/Inputs/Button";
+import {Tooltip} from "../components/Melody/src/components/Layouts/Tooltip";
+import {Button} from "../components/Melody/src/components/Inputs/Button";
 
 export default {
   title: 'Layout/Melody Tooltip',

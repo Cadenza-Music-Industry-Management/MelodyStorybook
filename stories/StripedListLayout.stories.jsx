@@ -1,5 +1,5 @@
 import React from 'react';
-import {StripedListLayout} from '../Melody/src/components/Sections/StripedListLayout';
+import {StripedListLayout} from '../components/Melody/src/components/Sections/StripedListLayout';
 
 export default {
   title: 'Section/Melody Stripped List Layout',

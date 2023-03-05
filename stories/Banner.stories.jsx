@@ -1,5 +1,5 @@
 import React from 'react';
-import {Banner} from '../Melody/src/components/Layouts/Banner';
+import {Banner} from '../components/Melody/src/components/Layouts/Banner';
 
 export default {
   title: 'Layout/Melody Banner',

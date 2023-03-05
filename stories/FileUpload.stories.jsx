@@ -1,5 +1,5 @@
 import React from 'react';
-import {FileUpload} from '../Melody/src/components/Inputs/FileUpload';
+import {FileUpload} from '../components/Melody/src/components/Inputs/FileUpload';
 
 export default {
   title: 'Inputs/Melody File Upload',

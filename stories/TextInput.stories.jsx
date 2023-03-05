@@ -1,5 +1,5 @@
 import React from 'react';
-import {TextInput} from "../Melody/src/components/Inputs/TextInput";
+import {TextInput} from "../components/Melody/src/components/Inputs/TextInput";
 
 export default {
   title: 'Inputs/Melody Text Input',

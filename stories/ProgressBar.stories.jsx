@@ -1,5 +1,5 @@
 import React from 'react';
-import {ProgressBar} from '../Melody/src/components/Layouts/ProgressBar';
+import {ProgressBar} from '../components/Melody/src/components/Layouts/ProgressBar';
 
 export default {
   title: 'Layout/Melody Progress Bar',

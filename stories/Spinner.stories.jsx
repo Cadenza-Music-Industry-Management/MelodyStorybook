@@ -1,5 +1,5 @@
 import React from 'react';
-import {Spinner} from '../Melody/src/components/Layouts/Spinner';
+import {Spinner} from '../components/Melody/src/components/Layouts/Spinner';
 
 export default {
   title: 'Layout/Melody Spinner',

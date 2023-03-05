@@ -1,5 +1,5 @@
 import React from 'react';
-import {ModalTemplate} from '../Melody/src/components/Sections/ModalTemplate';
+import {ModalTemplate} from '../components/Melody/src/components/Sections/ModalTemplate';
 
 export default {
   title: 'Section/Melody Modal Template',

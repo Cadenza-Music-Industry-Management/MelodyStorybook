@@ -1,5 +1,5 @@
 import React from 'react';
-import {Badge} from '../Melody/src/components/Layouts/Badge';
+import {Badge} from '../components/Melody/src/components/Layouts/Badge';
 
 export default {
   title: 'Layout/Melody Badge',

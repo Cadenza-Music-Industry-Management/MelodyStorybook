@@ -1,5 +1,5 @@
 import React from 'react';
-import {PaginationButtons} from '../Melody/src/components/Inputs/PaginationButtons';
+import {PaginationButtons} from '../components/Melody/src/components/Inputs/PaginationButtons';
 
 export default {
   title: 'Inputs/Melody Pagination Buttons',

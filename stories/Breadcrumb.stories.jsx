@@ -1,5 +1,5 @@
 import React from 'react';
-import {Breadcrumb} from '../Melody/src/components/Layouts/Breadcrumb';
+import {Breadcrumb} from '../components/Melody/src/components/Layouts/Breadcrumb';
 
 export default {
   title: 'Layout/Melody Breadcrumb',

@@ -1,5 +1,5 @@
 import React from 'react';
-import {ImagePlaceholder} from '../Melody/src/components/Layouts/ImagePlaceholder';
+import {ImagePlaceholder} from '../components/Melody/src/components/Layouts/ImagePlaceholder';
 
 export default {
   title: 'Layout/Melody Image Placeholder',

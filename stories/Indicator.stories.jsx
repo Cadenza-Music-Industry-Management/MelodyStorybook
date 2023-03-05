@@ -1,5 +1,5 @@
 import React from 'react';
-import {Indicator} from '../Melody/src/components/Layouts/Indicator';
+import {Indicator} from '../components/Melody/src/components/Layouts/Indicator';
 
 export default {
   title: 'Layout/Melody Indicator',

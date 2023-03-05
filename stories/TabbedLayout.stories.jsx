@@ -1,5 +1,5 @@
 import React from 'react';
-import {TabbedLayout} from '../Melody/src/components/Layouts/TabbedLayout';
+import {TabbedLayout} from '../components/Melody/src/components/Layouts/TabbedLayout';
 
 export default {
   title: 'Inputs/Melody Tabbed Layout',

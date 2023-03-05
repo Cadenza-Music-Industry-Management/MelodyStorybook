@@ -1,5 +1,5 @@
 import React from 'react';
-import {CadenzaPricingLayout} from '../Melody/src/components/Sections/CadenzaPricingLayout';
+import {CadenzaPricingLayout} from '../components/Melody/src/components/Sections/CadenzaPricingLayout';
 
 export default {
   title: 'Section/Melody Cadenza Pricing Layout',

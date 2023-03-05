@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch} from '../Melody/src/components/Inputs/Switch';
+import {Switch} from '../components/Melody/src/components/Inputs/Switch';
 
 export default {
   title: 'Inputs/Melody Switch',

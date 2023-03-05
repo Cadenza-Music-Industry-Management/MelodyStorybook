@@ -1,5 +1,5 @@
 import React from 'react';
-import {Dropdown} from '../Melody/src/components/Inputs/Dropdown';
+import {Dropdown} from '../components/Melody/src/components/Inputs/Dropdown';
 
 export default {
   title: 'Inputs/Melody Dropdown',
