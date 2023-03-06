@@ -13,5 +13,9 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
+  babel: async (options) => {
+    options.plugins?.push('babel-plugin-inline-react-svg');
+    return options;
+  }
 };
 export default config;

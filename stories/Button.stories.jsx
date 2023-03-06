@@ -45,7 +45,7 @@ Secondary.args = {
 export const IconButton = Template.bind({});
 IconButton.args = {
   icon: {
-    icon: 'melody-label',
+    icon: 'melody-org',
     additionalStyles: {
       fontSize: 26,
     }

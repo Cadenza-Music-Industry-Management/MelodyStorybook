@@ -24,8 +24,6 @@ LoggedIn.args = {
     { name: 'Support', href: '/support', current: false },
     { name: 'Tools', href: '#', current: false },
     { name: 'Pricing', href: '#', current: false },
-  ]
-};
-
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+  ],
+  userNavigation: []
+}
