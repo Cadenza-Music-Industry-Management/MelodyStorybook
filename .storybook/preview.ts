@@ -1,4 +1,5 @@
 import '!style-loader!css-loader!postcss-loader!../components/Melody/src/css/tailwind_output.css';
+import '!style-loader!css-loader!postcss-loader!../styles/globals.css';
 
 import type { Preview } from "@storybook/react";
 import { DEFAULT_THEME, withTailwindTheme } from './withTailwindTheme.decorator';

@@ -36,6 +36,7 @@ SidebarTemplate.args = {
         //TODO need to have different objects besides menu items like titles, separators, buttons, text blurb, etc...
         {
             title: 'Content',
+            type: 'menu',
             icon: {icon: 'melody-content', containerType: 'contents'},
             children: [
                 {
@@ -130,6 +131,7 @@ SidebarTemplate.args = {
         },
         {
             title: 'Tools',
+            type: 'menu',
             icon: {icon: 'melody-org-tools', containerType: 'contents'},
             children: [
                 {
@@ -253,6 +255,7 @@ SidebarTemplate.args = {
         },
         {
             title: 'Public Site',
+            type: 'menu',
             icon: {icon: 'melody-public-site', containerType: 'contents'},
             children: [
                 {
@@ -277,6 +280,7 @@ SidebarTemplate.args = {
         },
         {
             title: 'Settings',
+            type: 'menu',
             icon: {icon: 'melody-settings', containerType: 'contents'},
             children: [
                 {
@@ -295,7 +299,3 @@ SidebarTemplate.args = {
         }
     ]
 }
-//  title: string;
-//     href: string;
-//     icon?: AddIconProps;
-//     children?: SidebarLink[];
