@@ -17,7 +17,10 @@ const Template = (args) => <Accordion {...args}>
 
 export const AccordionTemplate = Template.bind({});
 AccordionTemplate.args = {
-  size: 'medium'
+  size: 'medium',
+  accordionButton: {
+    title: 'Test'
+  }
 }
 
 //TODO typescript example

@@ -17,7 +17,7 @@ const Template = (args) => <div className="melody-flex melody-h-screen melody-bg
 
         <div className="melody-flex melody-flex-col melody-flex-1 melody-overflow-hidden">
             <main className="melody-flex-1 melody-overflow-x-hidden melody-overflow-y-auto melody-bg-gray-200 melody-p-6">
-                test
+                main content here
             </main>
         </div>
     </ProSidebarProvider>
@@ -26,14 +26,26 @@ const Template = (args) => <div className="melody-flex melody-h-screen melody-bg
 
 export const SidebarTemplate = Template.bind({});
 SidebarTemplate.args = {
+    organization: {
+        name: 'The Landing Strip Records',
+        groupUniqueId: 'tlsrecords',
+        groupType: 'Label'
+    },
+    organizations: [
+        {
+            name: 'Test 2',
+            groupUniqueId: 'test2',
+            groupType: 'Artist'
+        }
+    ],
     links: [
         {
             type: 'menu',
             title: 'Home',
             icon: {icon: 'melody-home', containerType: 'contents'},
-            href: '/'
+            href: '/',
+            selected: false
         },
-        //TODO need to have different objects besides menu items like titles, separators, buttons, text blurb, etc...
         {
             title: 'Content',
             type: 'menu',
@@ -45,15 +57,15 @@ SidebarTemplate.args = {
                 },
                 {
                     type: 'menu',
-                    title: 'Releases',
+                    title: 'Release',
                     icon: {icon: 'melody-releases', containerType: 'contents'},
-                    onClick: () => console.log("Release")
+                    href: '/',
                 },
                 {
                     type: 'menu',
-                    title: 'Artists',
+                    title: 'Artist',
                     icon: {icon: 'melody-artist', containerType: 'contents'},
-                    onClick: () => console.log("Artists")
+                    href: '/',
                 },
                 {
                     type: 'menu',
@@ -62,21 +74,21 @@ SidebarTemplate.args = {
                     children: [
                         {
                             type: 'menu',
-                            title: 'Apparel Items',
-                            onClick: () => console.log("Apparel Items")
+                            title: 'Apparel Item',
+                            href: '/',
                         },
                         {
                             type: 'menu',
-                            title: 'Apparel Orders',
-                            onClick: () => console.log("Apparel Orders")
+                            title: 'Apparel Order',
+                            href: '/',
                         }
                     ]
                 },
                 {
                     type: 'menu',
-                    title: 'Blog Posts',
+                    title: 'Blog Post',
                     icon: {icon: 'melody-blog-post', containerType: 'contents'},
-                    onClick: () => console.log("Blog Posts")
+                    href: '/',
                 },
                 {
                     type: 'separator'
@@ -87,44 +99,48 @@ SidebarTemplate.args = {
                 },
                 {
                     type: 'menu',
-                    title: 'Release',
+                    title: 'Releases',
                     icon: {icon: 'melody-releases', containerType: 'contents'},
-                    href: '/content/releases'
+                    onClick: () => console.log("Releases"),
+                    selected: false
                 },
                 {
                     type: 'menu',
-                    title: 'Artist',
+                    title: 'Artists',
                     icon: {icon: 'melody-artist', containerType: 'contents'},
-                    href: '/content/artist'
+                    onClick: () => console.log("Artists"),
+                    selected: false
                 },
                 {
                     type: 'menu',
                     title: 'Apparel',
                     icon: {icon: 'melody-merchandise', containerType: 'contents'},
-                    href: '/content/merchandise',
                     children: [
                         {
                             type: 'menu',
-                            title: 'Apparel Item',
-                            href: '/content/merchandise/apparel'
+                            title: 'Apparel Items',
+                            onClick: () => console.log("Apparel"),
+                            selected: false
                         },
                         {
                             type: 'menu',
-                            title: 'Apparel Order',
-                            href: '/content/merchandise/orders'
+                            title: 'Apparel Orders',
+                            onClick: () => console.log("Apparel Orders"),
+                            selected: false
                         }
                     ]
                 },
                 {
                     type: 'menu',
-                    title: 'Blog Post',
+                    title: 'Blog Posts',
                     icon: {icon: 'melody-blog-post', containerType: 'contents'},
-                    href: '/content/blog'
+                    onClick: () => console.log("Blog"),
+                    selected: false
                 },
                 {
                     type: 'button',
                     title: 'Import Data By CSV',
-                    //TODO icon
+                    icon: {icon: 'melody-csv', containerType: 'contents'},
                     onClick: () => console.log("Import CSV")
                 }
             ]
@@ -138,34 +154,34 @@ SidebarTemplate.args = {
                     type: 'menu',
                     title: 'Planning Board',
                     icon: {icon: 'melody-kanban', containerType: 'contents'},
-                    href: '/tools/kanban'
+                    href: '/',
                 },
                 {
                     type: 'menu',
                     title: 'Calendar',
                     icon: {icon: 'melody-calendar', containerType: 'contents'},
-                    href: '/tools/calendar'
+                    href: '/',
                 },
                 {
                     type: 'menu',
                     title: 'Accounting',
                     icon: {icon: 'melody-accounting', containerType: 'contents'},
-                    href: '/tools/accounting',
+                    // href: getDashboardLink('/tools/accounting',
                     children: [
                         {
                             type: 'menu',
                             title: 'Expenses',
-                            href: '/tools/accounting/expenses'
+                            href: '/',
                         },
                         {
                             type: 'menu',
                             title: 'Income',
-                            href: '/tools/accounting/income'
+                            href: '/',
                         },
                         {
                             type: 'menu',
                             title: 'Sources',
-                            href: '/tools/accounting/sources'
+                            href: '/',
                         }
                     ]
                 },
@@ -173,19 +189,19 @@ SidebarTemplate.args = {
                     type: 'menu',
                     title: 'Staff Management',
                     icon: {icon: 'melody-staff-management', containerType: 'contents'},
-                    href: '/tools/staff'
+                    href: '/',
                 },
                 {
                     type: 'menu',
                     title: 'File Storage',
                     icon: {icon: 'melody-file-storage', containerType: 'contents'},
-                    href: '/tools/files'
+                    href: '/',
                 },
                 {
                     type: 'menu',
                     title: 'Music Promotion',
                     icon: {icon: 'melody-promotion', containerType: 'contents'},
-                    href: '/tools/promotion',
+                    // href: getDashboardLink('/tools/promotion'),
                     children: [
                         {
                             type: 'title',
@@ -194,17 +210,17 @@ SidebarTemplate.args = {
                         {
                             type: 'menu',
                             title: 'Release Promotions',
-                            href: '/tools/promotion/releases'
+                            href: '/',
                         },
                         {
                             type: 'menu',
                             title: 'Promoters',
-                            href: '/tools/promotion/promoters'
+                            href: '/',
                         },
                         {
                             type: 'menu',
                             title: 'Promotion Pages',
-                            href: '/tools/promotion/pages'
+                            href: '/',
                         },
                         {
                             type: 'separator'
@@ -235,7 +251,7 @@ SidebarTemplate.args = {
                         },
                         {
                             type: 'text',
-                            title: 'Free to use until December 31st! Vicace subscription required Dec. 31st+'
+                            title: 'Free to use until December 31st! Vivace subscription required Dec. 31st+'
                         }
                     ]
                 },
@@ -243,13 +259,13 @@ SidebarTemplate.args = {
                     type: 'menu',
                     title: 'Email Hub',
                     icon: {icon: 'melody-email', containerType: 'contents'},
-                    href: '/tools/emails'
+                    href: '/'
                 },
                 {
                     type: 'menu',
                     title: 'Event History',
                     icon: {icon: 'melody-history', containerType: 'contents'},
-                    href: '/tools/history'
+                    href: '/'
                 },
             ]
         },
@@ -261,20 +277,20 @@ SidebarTemplate.args = {
                 {
                     type: 'menu',
                     title: 'View Site',
-                    icon: {icon: 'melody-public-site', containerType: 'contents'}, //TODO has its own icon?
-                    href: '/' //TODO send to public site
+                    icon: {icon: 'desktop', containerType: 'contents'}, //TODO do we want Melody icon?
+                    href: '/'
                 },
                 {
                     type: 'menu',
                     title: 'Site Builder',
                     icon: {icon: 'melody-site-builder', containerType: 'contents'},
-                    href: '/' //TODO send to site builder, different page than dashboard / new sidebar?
+                    href: '/'
                 },
                 {
                     type: 'menu',
                     title: 'Visibility Settings',
                     icon: {icon: 'melody-visibility', containerType: 'contents'},
-                    href: '/site/visibility'
+                    href: '/'
                 },
             ]
         },
@@ -287,13 +303,13 @@ SidebarTemplate.args = {
                     type: 'menu',
                     title: 'Organization',
                     icon: {icon: 'melody-org', containerType: 'contents'},
-                    href: '/settings'
+                    href: '/'
                 },
                 {
                     type: 'menu',
                     title: 'Subscription',
                     icon: {icon: 'melody-payment-settings', containerType: 'contents'},
-                    href: '/settings/payment'
+                    href: '/'
                 },
             ]
         }
