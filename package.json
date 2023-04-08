@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "npm run build:css && storybook build -o docs-build",
+    "build-storybook": "storybook build",
     "build:css": "npx tailwindcss -c ./components/Melody/src/tailwind.config.js  -i ./components/Melody/src/css/melody.css -o ./components/Melody/src/css/tailwind_output.css",
     "watch:css": "npx tailwindcss -c ./components/Melody/src/tailwind.config.js  -i ./components/Melody/src/css/melody.css -o ./components/Melody/src/css/tailwind_output.css --watch"
   },
