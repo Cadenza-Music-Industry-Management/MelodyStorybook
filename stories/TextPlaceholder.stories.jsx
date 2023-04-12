@@ -19,6 +19,5 @@ const Template = (args) => <TextPlaceholder {...args} />;
 export const TextPlaceholderTemplate = Template.bind({});
 TextPlaceholderTemplate.args = {
   variant: "paragraph",
-  size: 'medium',
-  text: 'Text Placeholder'
+  size: 'medium'
 }
