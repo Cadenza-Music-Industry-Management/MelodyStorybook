@@ -171,16 +171,19 @@ SidebarTemplate.args = {
                         {
                             type: 'menu',
                             title: 'Expenses',
+                            icon: {icon: 'melody-expenses', containerType: 'contents'},
                             href: '/',
                         },
                         {
                             type: 'menu',
                             title: 'Income',
+                            icon: {icon: 'melody-income', containerType: 'contents'},
                             href: '/',
                         },
                         {
                             type: 'menu',
                             title: 'Sources',
+                            icon: {icon: 'melody-sources', containerType: 'contents'},
                             href: '/',
                         }
                     ]
