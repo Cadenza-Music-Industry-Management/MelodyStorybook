@@ -24,9 +24,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   icon: {
     icon: 'melody-label',
-    additionalStyles: {
-      fontSize: 20
-    }
+    additionalClasses: 'melody-w-6'
   },
   color: 'primary',
   variant: 'outlined',
@@ -46,9 +44,7 @@ export const IconButton = Template.bind({});
 IconButton.args = {
   icon: {
     icon: 'melody-org',
-    additionalStyles: {
-      fontSize: 26,
-    }
+    additionalClasses: 'melody-w-6'
   },
   color: 'primary',
   variant: 'outlined',
