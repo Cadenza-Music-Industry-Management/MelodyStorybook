@@ -10,6 +10,7 @@ export const withTailwindTheme = (Story, context) => {
 
         // Set the "data-mode" attribute on the iFrame html tag
         htmlTag.setAttribute('data-mode', theme || DEFAULT_THEME);
+        htmlTag.setAttribute('data-is-storybook', 'true');
     }, [theme]);
 
     return <Story />;

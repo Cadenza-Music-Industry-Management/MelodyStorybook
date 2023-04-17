@@ -4,7 +4,7 @@ const config: StorybookConfig = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
+    "@storybook/addon-interactions"
   ],
   framework: {
     name: "@storybook/nextjs",
@@ -16,6 +16,6 @@ const config: StorybookConfig = {
   babel: async (options) => {
     options.plugins?.push('babel-plugin-inline-react-svg');
     return options;
-  }
+  },
 };
 export default config;

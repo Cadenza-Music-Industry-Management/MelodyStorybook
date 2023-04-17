@@ -3,6 +3,15 @@ import '!style-loader!css-loader!postcss-loader!../styles/globals.css';
 
 import type { Preview } from "@storybook/react";
 import { DEFAULT_THEME, withTailwindTheme } from './withTailwindTheme.decorator';
+import localFont from "next/font/local";
+
+//TODO next/font/local not working, using hacky method for now on Icon component
+const melodyIcons = localFont({
+  src: '../components/Melody/src/fonts/melody_icons.woff2',
+  variable: '--melody-icon-font'
+})
+
+document.body.classList.add(melodyIcons.variable);
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
