@@ -5,7 +5,12 @@ export default {
   title: 'Inputs/Melody Checkbox',
   component: Checkbox,
   argTypes: {
-    backgroundColor: { control: 'color' },
+    value: {
+      control: { type: 'boolean' }
+    },
+    disabled: {
+      control: { type: 'boolean' }
+    },
     variant: {
       control: { type: 'select', options: ['primary', 'secondary'] }
     },
@@ -19,8 +24,9 @@ const Template = (args) => <Checkbox {...args} />;
 
 export const CheckboxTemplate = Template.bind({});
 CheckboxTemplate.args = {
-  variant: "primary",
+  variant: 'primary',
   size: 'medium',
   label: 'Top label',
-  subLabel: "This is the sub label"
+  subLabel: 'This is the sub label',
+  handleChange: (checked) => console.log(checked)
 }

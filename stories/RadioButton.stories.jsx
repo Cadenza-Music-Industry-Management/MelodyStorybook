@@ -5,7 +5,12 @@ export default {
   title: 'Inputs/Melody Radio Button',
   component: RadioButton,
   argTypes: {
-    backgroundColor: { control: 'color' },
+    value: {
+      control: { type: 'boolean' }
+    },
+    disabled: {
+      control: { type: 'boolean' }
+    },
     variant: {
       control: { type: 'select', options: ['primary', 'secondary'] }
     },
@@ -19,7 +24,9 @@ const Template = (args) => <RadioButton {...args} />;
 
 export const RadioButtonTemplate = Template.bind({});
 RadioButtonTemplate.args = {
-  variant: "primary",
+  variant: 'primary',
   size: 'medium',
-  label: 'Top label'
+  label: 'Top label',
+  subLabel: 'This is the sub label',
+  handleChange: (checked) => console.log(checked)
 }

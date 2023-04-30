@@ -1,5 +1,5 @@
 import React from 'react';
-import {Sidebar} from '../components/Melody/src/components/Sections/Sidebar';
+import {Sidebar} from '../components/Melody/src/components/Sections/Sidebar/Sidebar';
 import { ProSidebarProvider } from "react-pro-sidebar";
 
 export default {
